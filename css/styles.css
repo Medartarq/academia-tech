@@ -1,0 +1,42 @@
+:root {
+  --academy-navy: #102a43;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #243b53;
+}
+
+.hero-section {
+  background: linear-gradient(125deg, var(--academy-navy), #1f5f8b);
+}
+
+.hero-card {
+  border-top: 5px solid #0dcaf0;
+}
+
+.section-description {
+  max-width: 42rem;
+}
+
+.course-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0.75rem 1.5rem rgba(16, 42, 67, 0.13) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .course-card {
+    transition: none;
+  }
+}
