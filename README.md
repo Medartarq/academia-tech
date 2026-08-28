@@ -2,10 +2,6 @@
 
 Solucion de la Practica 3: pagina responsiva para una academia de cursos.
 
-## Como ejecutar
-
-Abre `index.html` en un navegador con acceso a Internet para cargar Bootstrap desde su CDN.
-
 ## Componentes incluidos
 
 - Navbar con enlaces internos y menu responsive.
