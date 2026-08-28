@@ -1,6 +1,6 @@
 # Academia Tech
 
-Solucion de la Practica 3: pagina responsiva para una academia de cursos.
+Avance de ejercicio: Página responsiva para una academia de cursos.
 
 ## Componentes incluidos
 
